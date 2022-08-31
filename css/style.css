@@ -1,0 +1,42 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.conteudo {
+    background-color: rgb(221, 223, 222);
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.conteudo::before {
+    content:"";
+    position: absolute;
+    background-color: linear-gradient(212.29deg, #B61056 0.22%, #CD5A8A 100%);
+    width: 40%;
+    height: 100%;
+}
+.p-conteudo {
+    display: flex;
+}
+.blocoum {
+    text-align:center;
+    flex: 1 0 auto;
+    z-index: 10;
+}
+.blocodois {
+    flex: 2 0 auto;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}

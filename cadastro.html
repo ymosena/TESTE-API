@@ -4,26 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/iconp.ico" type="image/x-icon">
     <title>Py.nk</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <label for="nome">NOME COMPLETO</label><br>
-    <input type="text" id="nome" name="nome"><br>
-    <label for="assunto">ENDEREÇO</label><br>
-    <input type="text" id="assunto" name="assunto"><br>
-    <label for="desc">CPF</label><br>
-    <input type="text" id="desc" name="desc"><br>
-    <label for="ddn">DATA DE NASCIMENTO</label><br>
-    <input type="date" id="ddn" name="ddn" size=" 200"><br>
-    <label for="genero">GÊNERO</label><br>
-    <input list="genero">
-    <datalist id="genero">
-        <option value="FEMININO">
-        <option value="MASCULINO">
-    </datalist><br>
-    <label for="senha">SENHA</label><br>
-    <input type="text" id="senha" name="senha">
-    <br><br>
-    <input type="submit" value="Enviar">
+    <div class="bloco">
+        <div class="conteudo p-conteudo">
+            <div class="blocoum">
+            <h4 class="img"><img src="img/pynkpng3.png" alt="logo"></h4>
+            <br>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Quam ea architecto quibusdam officiis tempore quis quo, itaque delectus non nostrum. <br>
+                Labore voluptatum quod animi perferendis possimus nostrum officiis alias perspiciatis!</p>
+        </div>
+            <div class="blocodois">
+                <h2 class="title">ABRA SUA CONTA</h2>
+                <p class="description"><em>Sua jornada começa agora.</em></p>
+                <form class="form">
+                    <label for="nome">NOME COMPLETO</label>
+                    <input type="text" id="nome" name="nome">
+                    <label for="assunto">ENDEREÇO</label>
+                    <input type="text" id="assunto" name="assunto">
+                    <label for="desc">CPF</label>
+                    <input type="text" id="desc" name="desc">
+                    <label for="ddn">DATA DE NASCIMENTO</label>
+                    <input type="date" id="ddn" name="ddn" size=" 200">
+                    <label for="genero">GÊNERO</label>
+                    <input list="genero">
+                    <datalist id="genero">
+                        <option value="FEMININO">
+                        <option value="MASCULINO">
+                    </datalist><br>
+                    <label for="senha">SENHA</label>
+                    <input type="password" id="senha" name="senha">
+                    <input type="submit" value="CADASTRAR">
+                    <a class="action-button" href="login.html">JÁ TEM UMA CONTA? FAÇA O LOGIN!</a>" 
+                </form>
+        </div>
+</div>
 </body>
 </html>
