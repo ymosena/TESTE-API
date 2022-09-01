@@ -10,7 +10,7 @@
     height:100vh;
 }
 .conteudo {
-    background-color: rgb(221, 223, 222);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     width: 100%;
     height: 100%;
@@ -21,19 +21,19 @@
 .conteudo::before {
     content:"";
     position: absolute;
-    background-color: linear-gradient(212.29deg, #B61056 0.22%, #CD5A8A 100%);
+    background-color:#B61056;
     width: 40%;
     height: 100%;
 }
-.p-conteudo {
+.p-conteudo{
     display: flex;
 }
-.blocoum {
+.colunaum {
     text-align:center;
     flex: 1 0 auto;
     z-index: 10;
 }
-.blocodois {
+.colunadois {
     flex: 2 0 auto;
 }
 .form {
