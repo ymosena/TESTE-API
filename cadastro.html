@@ -9,39 +9,84 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="bloco">
-        <div class="conteudo p-conteudo">
-            <div class="colunaum">
-            <h4 class="img"><img src="img/pynkpng3.png" alt="logo"></h4>
-            <br>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                Quam ea architecto quibusdam officiis tempore quis quo, itaque delectus non nostrum. <br>
-                Labore voluptatum quod animi perferendis possimus nostrum officiis alias perspiciatis!</p>
-        </div>
-            <div class="colunadois">
-                <h2 class="title">ABRA SUA CONTA</h2>
-                <p class="description"><em>Sua jornada começa agora.</em></p>
-                <form class="form">
-                    <label for="nome">NOME COMPLETO</label>
-                    <input type="text" id="nome" name="nome">
-                    <label for="assunto">ENDEREÇO</label>
-                    <input type="text" id="assunto" name="assunto">
-                    <label for="desc">CPF</label>
-                    <input type="text" id="desc" name="desc">
-                    <label for="ddn">DATA DE NASCIMENTO</label>
-                    <input type="date" id="ddn" name="ddn" size=" 200">
-                    <label for="genero">GÊNERO</label>
-                    <input list="genero">
-                    <datalist id="genero">
-                        <option value="FEMININO">
-                        <option value="MASCULINO">
-                    </datalist><br>
-                    <label for="senha">SENHA</label>
-                    <input type="password" id="senha" name="senha">
-                    <input type="submit" value="CADASTRAR">
-                    <a class="action-button" href="login.html">JÁ TEM UMA CONTA? FAÇA O LOGIN!</a> 
+    <div class="container">
+        <div class="forms-container">
+            <div class="cadastro-login">
+                <form action="" class="form-cadastro">
+            <h2 class="title">ABRA SUA CONTA</h2>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="text" placeholder="NOME COMPLETO">
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="text" placeholder="ENDEREÇO">
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="text" placeholder="CPF">
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="date" placeholder="DATA DE NASCIMENTO">
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input list="genero" placeholder="GÊNERO">
+                <datalist id="genero">
+                    <option value="FEMININO">
+                    <option value="MASCULINO">
+                </datalist>
+            </div>
+             <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="SENHA">
+                </div>   
+                 <input type="submit" value="CADASTRAR" class="btn solid">
                 </form>
+            </div>
+                <form action="" class="form-login">
+                    <h2 class="title">FAÇA SEU LOGIN</h2>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="text" placeholder="NOME COMPLETO">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="text" placeholder="ENDEREÇO">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="text" placeholder="CPF">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="date" placeholder="DATA DE NASCIMENTO">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input list="genero" placeholder="GÊNERO">
+                        <datalist id="genero">
+                            <option value="FEMININO">
+                            <option value="MASCULINO">
+                        </datalist>
+                    </div>
+                     <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="SENHA">
+                        </div>   
+                         <input type="submit" value="CADASTRAR" class="btn solid">
+                        </form>
         </div>
-</div>
+    </div> 
+    <div class="panels-container">
+        <div class="panel left-panel">
+            <div class="content">
+                <h3>JÁ TEM SUA CONTA?</h3>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, id ducimus aut at vero tempora Laudantium.</p>
+                <button class="btn transparent" id="btn-login">FAÇA SEU LOGIN</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
