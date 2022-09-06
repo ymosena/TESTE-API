@@ -21,14 +21,15 @@ body, input{
 .container:before{
     content: '';
     position: absolute;
-    width: 2000px;
-    height: 2000px;
-    border-radius: 50% ;
-    background-color:#B71258;
+    width: 200vh;
+    height: 250vh;
+    border-radius: 50%;
+    background:linear-gradient(-45deg, #B71258, #CC5587);
     top: -10%;
     right: 48%;
     transform: translateY(-50%) ;
 }
+
 
 .forms-container{
     position:absolute;
@@ -53,19 +54,12 @@ body, input{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    z-index: 2;
 }
 .form-login{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    z-index: 1;
-    opacity: 0;
 }
 
 
@@ -146,4 +140,28 @@ body, input{
 }
 .btnd:hover{
     background-color: #CC5587;
+}
+
+.panels-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    text-align: center;
+}
+
+.left-panel{
+    padding: 3rem 17% 2rem 12%;
+}
+
+.image{
+    width: 100%;
 }
