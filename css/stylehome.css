@@ -18,7 +18,7 @@ li{
     list-style: none;
 }
 .container{
-    max-width: 950px;
+    max-width: 95%;
     margin: auto;
     width: 100%;
 }
@@ -29,24 +29,26 @@ header{
     background:linear-gradient( #db578e, #B71258); 
 }
 .logo{
-    
+    margin-right: 0%;
+}
+.navitens{
+
 }
 .nav{
-    margin-left: 3%;
+    margin-left: 2.5%;
     display: flex;
     align-items: center ;
     justify-content: space-between;
-    padding: 12.5px 0;
+    padding: 14px ;
 }
 .navbar{
     display: flex;
     align-items: center ;
-    column-gap: 1.8rem;   
+    column-gap: 3rem;   
 }
 .nav-link{
-    
     font-size: 1.2rem;
-    padding: 4px 10px;
+    padding: 10px;
     border-radius: 0.2rem;
     color: whitesmoke;
 }
