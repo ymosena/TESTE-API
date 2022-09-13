@@ -76,3 +76,21 @@ header{
     background: linear-gradient( #CC5587, #B71258); 
     transition: 0.3s all linear;
 }
+.btnd{
+    background-color: #B71258;
+    border: none;
+    border-radius: 49px;
+    color: #ffffff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .btnd:hover{
+background-color: #CC5587;
+  }
