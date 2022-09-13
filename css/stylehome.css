@@ -76,13 +76,39 @@ header{
     background: linear-gradient( #CC5587, #B71258); 
     transition: 0.3s all linear;
 }
-.saque{
+.funcao{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    padding: 10px;
+    padding:8%;
 }
+.h1{
+    font-size: 1.5rem;
+}
+.input-field{
+    max-width:380px;
+    width: 100%;
+    height: 50px;
+    background-color: #F0E8EA ;
+    margin: 10px 0;
+    display: grid;
+    padding: 0. 4rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B71258;
+}
+
+.input-field input{
+    text-align: center;
+    background-color: none ;
+    outline: none ;
+    border: none ;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #444;
+} 
 .btnd{
     background-color: #B71258;
     border: none;
